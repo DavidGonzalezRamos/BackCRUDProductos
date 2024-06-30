@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/producto")
-//@CrossOrigin(origins ={"http://localhost:4200" , "http://localhost:8080"})
+@CrossOrigin(origins ={"http://localhost:4200" , "https://gorgeous-frangipane-6ba898.netlify.app/"})
 public class ProductoController {
     @Autowired
     private ProductoService productoService;
